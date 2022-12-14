@@ -5,6 +5,7 @@ on:
     branches:
       - '*'
       - '!main'
+      - '!gh-pages'
   pull_request:
 
 jobs:
@@ -46,4 +47,5 @@ jobs:
         if: steps.list-changed.outputs.changed == 'true'
 
       - name: Run chart-testing (install)
+        if: steps.list-changed.outputs.changed == 'true'
         run: ct install --config ct.yaml 
