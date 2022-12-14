@@ -6,6 +6,6 @@ validate-yaml: true
 validate-maintainers: false
 helm-extra-args: --timeout 800s
 charts:
-  - helm-charts/web
+  - charts/web
 chart-dirs:
-  - helm-charts/web
+  - charts/web
