@@ -11,4 +11,19 @@ entries:
     urls:
     - https://github.com/pli01/web-helm/releases/download/web-0.1.1/web-0.1.1.tgz
     version: 0.1.1
-generated: "2022-12-14T21:32:06.224395322Z"
+  web-dev:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-12-17T13:05:24.807101835Z"
+    dependencies:
+    - name: web
+      repository: https://pli01.github.io/web-helm
+      version: 0.1.1
+    description: web-dev
+    digest: 9458d1e53d4232120e9f5177125770beb216112e2a454e9fdeeac6fb9c3ee836
+    name: web-dev
+    type: application
+    urls:
+    - https://github.com/pli01/web-helm/releases/download/web-dev-0.1.0/web-dev-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-17T13:05:24.807105835Z"
